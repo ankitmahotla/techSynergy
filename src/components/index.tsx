@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Services from "./Services";
-import Technologies from "./Technologies";
+import Technologies from "./Technology";
 import Main from "./Main";
 import TrustedBy from "./TrustedBy";
 import Reviews from "./Reviews";
