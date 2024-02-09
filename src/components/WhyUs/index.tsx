@@ -45,8 +45,9 @@ const WhyUs = () => {
       containerRef.current.scrollBy({ left: -300, behavior: "smooth" });
     }
   };
+
   return (
-    <div className="p-5 md:p-10 xl:px-20">
+    <section className="p-5 md:p-10 xl:px-20">
       <div className="bg-[#F7F7FD] rounded-2xl p-10">
         <h1 className="my-6 mb-10 text-center text-[#3D3D3D] text-2xl md:text-4xl font-medium">
           Choose Us: Your Path to Innovation and <br />
@@ -66,7 +67,7 @@ const WhyUs = () => {
           bgColor="white"
         />
       </div>
-    </div>
+    </section>
   );
 };
 

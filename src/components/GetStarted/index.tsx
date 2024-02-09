@@ -1,5 +1,6 @@
 import picture from "../../assets/GetStarted.png";
 import Button from "../Button";
+
 const GetStarted = () => {
   return (
     <div className="p-5 md:p-10 xl:px-20">
@@ -10,7 +11,7 @@ const GetStarted = () => {
         <Button color="#FFFFFF" content="Schedule a Call" />
       </div>
       <div className="flex items-center justify-center -mt-24 sm:-mt-40 md:-mt-60 xl:-mt-72">
-        <img src={picture} alt="" />
+        <img src={picture} alt="Get Started Image" />
       </div>
     </div>
   );

@@ -7,8 +7,8 @@ import {
   mobile,
   shapes,
 } from "../../assets/TechnologyLogos";
-
 import TechnologyCard from "./TechnologyCard";
+
 const data = [
   {
     imageUrl: code,

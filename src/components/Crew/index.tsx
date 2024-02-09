@@ -38,21 +38,31 @@ const data = [
 
 const Crew = () => {
   return (
-    <div className="flex flex-col items-center justify-center p-5 md:p-10 xl:px-20">
-      <div className="flex items-center space-x-8 md:-space-x-10">
-        <img className="hidden md:flex" src={greenVector} />
-        <div className="flex justify-center -space-x-8 lg:-space-x-14 flex-wrap md:flex-nowrap">
-          {data.map((member) => (
-            <CrewAvatar key={member.id} member={member} />
-          ))}
+    <section className="p-5 md:p-10 xl:px-20">
+      <div className="flex flex-col items-center justify-center">
+        <div className="flex items-center space-x-8 md:-space-x-10">
+          <img
+            className="hidden md:block"
+            src={greenVector}
+            alt="Green Vector"
+          />
+          <div className="flex justify-center -space-x-8 lg:-space-x-14 flex-wrap md:flex-nowrap">
+            {data.map((member) => (
+              <CrewAvatar key={member.id} member={member} />
+            ))}
+          </div>
+          <img
+            className="hidden md:block w-20 h-20"
+            src={vector}
+            alt="Vector"
+          />
         </div>
-        <img className="hidden md:flex w-20 h-20" src={vector} alt="" />
+        <h2 className="my-8 md:my-12 font-medium text-2xl md:text-4xl">
+          Let's Form Your Crew
+        </h2>
+        <Button content="Schedule a Call" />
       </div>
-      <h2 className="my-8 md:my-12 font-medium text-2xl md:text-4xl">
-        Let's Form Your Crew
-      </h2>
-      <Button content="Schedule a Call" />
-    </div>
+    </section>
   );
 };
 

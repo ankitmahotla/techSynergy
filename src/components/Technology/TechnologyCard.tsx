@@ -12,7 +12,7 @@ const TechnologyCard: React.FC<{ technology: Technology }> = ({
       <img
         className="w-10 h-10 md:w-12 md:h-12"
         src={technology.imageUrl}
-        alt=""
+        alt={technology.title}
       />
       <div>
         <h3 className="text-[#3D3D3D] font-medium text-xl md:text-2xl">
