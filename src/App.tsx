@@ -13,7 +13,7 @@ import {
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
       <Main />
       <Services />
@@ -24,7 +24,7 @@ const App = () => {
       <Crew />
       <GetStarted />
       <Footer />
-    </div>
+    </>
   );
 };
 
