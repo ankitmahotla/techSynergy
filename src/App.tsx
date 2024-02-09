@@ -15,14 +15,16 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Main />
-      <Services />
-      <Technologies />
-      <TrustedBy />
-      <Reviews />
-      <WhyUs />
-      <Crew />
-      <GetStarted />
+      <div className="mx-auto max-w-[1750px]">
+        <Main />
+        <Services />
+        <Technologies />
+        <TrustedBy />
+        <Reviews />
+        <WhyUs />
+        <Crew />
+        <GetStarted />
+      </div>
       <Footer />
     </>
   );
